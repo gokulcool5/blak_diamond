@@ -1,0 +1,52 @@
+.container-fluid .row{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.container-fluid .row li{
+	margin-top: 40px;
+	border:1px solid white;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	transition: 0.5s;
+}
+.container-fluid .row li a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+
+}
+.container-fluid .row li a:hover{
+	color: brown;
+	font-size: 13px;
+}
+.about{
+	text-align: justify;
+	font-size: 17px;
+}
+.about .image{
+	margin-left: 70px;
+}
+.contact-us button{
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	transition: 0.3s;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.contact-us button:hover{
+	background-color: white;
+	color: black;
+}
+.contact-us form{
+	text-align: center;
+}
+.contact-us .contact{
+
+	text-align: center;
+}
+.contact-us .contact p{
+	font-size: 13px;
+	text-align: center;
+}
