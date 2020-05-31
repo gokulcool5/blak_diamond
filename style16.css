@@ -1,23 +1,28 @@
+*{
+	background-color: #1a2228;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
 .container-fluid .row{
 	margin-top: 10px;
 	margin-left: 10px;
 }
 .container-fluid .row li{
 	margin-top: 40px;
-	border:1px solid white;
+	border:1px solid #1a2228;
 	font-size: 12px;
 	text-align: center;
 	vertical-align: middle;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 .container-fluid .row li a{
 	list-style: none;
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 .container-fluid .row li a:hover{
-	color: brown;
+	color: rgb(227, 252, 6);
 	font-size: 13px;
 }
 .about{
@@ -42,11 +47,20 @@
 .contact-us form{
 	text-align: center;
 }
+.contact-us form input{
+	border-radius: 5px;
+	box-shadow: 0 0 10px 1px black;
+}
 .contact-us .contact{
 
 	text-align: center;
 }
 .contact-us .contact p{
 	font-size: 13px;
-	text-align: center;
+    text-align: center;
+}
+.img{
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 0 10px 3px black;
 }
