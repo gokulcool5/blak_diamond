@@ -3,28 +3,34 @@
 	color: white;
 	font-family: 'Raleway', sans-serif;
 }
+#img1{
+	height: auto;
+}
+nav{
+	margin-top: 30px;
+}
+li{
+	margin-left: 30px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.navbar-toggler-icon{
+	border-radius: 5px;
+	box-shadow: 0 0 10px 3px black;
+}
+.nav-link{
+	color: white !important;
+	
+}
+.nav-link:hover{
+	color: rgb(223, 220, 41) !important;
+	font-size: 1.0625rem;
+}
 .container-fluid .row{
 	margin-top: 10px;
 	margin-left: 10px;
 }
-.container-fluid .row li{
-	margin-top: 40px;
-	border:1px solid #1a2228;
-	font-size: 12px;
-	text-align: center;
-	vertical-align: middle;
-	transition: 0.3s;
-}
-.container-fluid .row li a{
-	list-style: none;
-	text-decoration: none;
-	color: white;
 
-}
-.container-fluid .row li a:hover{
-	color: rgb(227, 252, 6);
-	font-size: 13px;
-}
 .about{
 	text-align: justify;
 	font-size: 17px;
@@ -64,3 +70,55 @@
 	background-color: white;
 	box-shadow: 0 0 10px 3px black;
 }
+@media (min-width: 200px) and (max-width:575px){
+	#img1{
+		width: 100px !important;
+		height: 100px !important;
+	}
+	#img2{
+		margin-left: -70px !important;
+		width: 150px !important;
+		height: 200px !important;
+
+	}
+}
+@media (min-width: 200px) and (max-width:300px){
+	li{
+		margin-left: -20px;
+		padding-left: -3px;
+		padding-right: -3px;
+	}
+	nav{
+		font-size: x-small;
+	}
+	.nav-link:hover{
+		font-size: small;
+	}
+	form{
+		font-size: small !important;
+		margin-left: -10px;
+	}
+	
+
+}
+@media (min-width: 200px) and (max-width:252px){
+	div .contact{
+		font-size: xx-small !important;
+		margin-left: -50px;
+		
+	}
+}
+@media (min-width: 576px) and (max-width:767px){
+	#img1{
+		width: auto;
+		height: 100px !important;
+	}
+}
+@media (min-width: 768px) and (max-width:991px){
+	#img1{
+		width: auto;
+		height: 120px !important;
+	}			
+}
+
+		
